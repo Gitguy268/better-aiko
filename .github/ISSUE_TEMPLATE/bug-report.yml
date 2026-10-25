@@ -1,0 +1,15 @@
+name: Bug report
+description: Something on the site or in an icon looks or works wrong
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: Include the icon name, and the browser if it's about the site.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?

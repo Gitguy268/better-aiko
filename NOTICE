@@ -1,0 +1,29 @@
+Better Aiko
+https://github.com/Gitguy268/better-aiko
+
+This is a fork of Aiko by Tw93 (https://github.com/tw93/aiko). Upstream has
+no LICENSE file; its README states "MIT License", and this fork relies on that
+statement.
+
+Third-party material (outside the MIT grant)
+--------------------------------------------
+- Upstream's README says its icons were "inspired by OpenAI's original icon
+  assets", and many of the upstream glyphs appear to be derived from icons in
+  OpenAI's ChatGPT interface. Any rights OpenAI holds in those designs are not
+  granted by this project's licence.
+- The OpenAI logo (symbol "c158a9", and any other brand marks in the sprite) is
+  a trademark of OpenAI. It is included only because upstream includes it.
+- The Y Combinator mark (symbol "abb4e6") is a trademark of Y Combinator.
+
+Better Aiko is not affiliated with or endorsed by OpenAI, Y Combinator or Tw93.
+
+Icons added by this fork
+------------------------
+The sources in icons-src/ and the symbols built from them are original work by
+Lucas Van De Weerd under the MIT licence. Some of them reuse upstream outlines
+(file, folder, cloud, message, shield, wrench, globe, bell, search), so the
+notes above apply to those shared shapes too.
+
+Build tools (not distributed with the site)
+-------------------------------------------
+- skia-pathops (BSD-3-Clause), fontTools (MIT), svgo (MIT).

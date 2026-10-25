@@ -4,7 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Aiko</title>
+  <title>Better Aiko</title>
+  <meta name="description" content="Better Aiko: a fork of Aiko, refined SVG icons for the AI era, with extra AI, developer, file and UI icons.">
   <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -135,6 +136,10 @@
       font-size: 12px;
       opacity: 0.6;
       font-weight: 300;
+    }
+
+    footer a {
+      color: inherit;
     }
 
     @media (max-width: 900px) {
@@ -654,8 +659,8 @@
   <nav class="navbar">
     <div class="nav-left">
       <div class="brand">
-        <img src="assets/logo.svg" alt="Aiko">
-        Aiko
+        <img src="assets/logo.svg" alt="">
+        Better Aiko
         <span class="subtitle">Refined icons for the AI era.</span>
       </div>
     </div>
@@ -742,7 +747,7 @@
   </div>
 
   <footer id="footer">
-    Inspired by OpenAI's original icon assets.
+    Inspired by OpenAI's original icon assets. Better Aiko is a fork of <a href="https://github.com/tw93/aiko">tw93/aiko</a>.
   </footer>
 
   <div id="sprites-container"></div>
@@ -1465,6 +1470,9 @@
 
       } catch (error) {
         console.error('Init error:', error);
+        if (location.protocol === 'file:') {
+          document.getElementById('main-content').innerHTML = `<div class="no-results">Icons can't load from a file:// address. Double-click start.command, or run <code>python3 -m http.server</code> in this folder.</div>`;
+        }
       }
     }
 

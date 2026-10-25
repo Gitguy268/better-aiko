@@ -1,0 +1,7 @@
+# Better Aiko
+
+> Better Aiko is a browsable set of 581 refined SVG icons for AI products and modern interfaces. It is a fork of Aiko by Tw93, adding AI, developer, file and UI icons. Icons are 20×20 filled paths with a 1.33 stroke look, published as one SVG sprite.
+
+- [Icon browser](https://gitguy268.github.io/better-aiko/): search, recolour, copy SVG or download SVG/PNG
+- [SVG sprite](https://gitguy268.github.io/better-aiko/assets/icons.svg): every icon as a `<symbol>`; names and tags are in the page's `iconMetadata`
+- [Source and licence](https://github.com/Gitguy268/better-aiko): MIT, with third-party notes in NOTICE

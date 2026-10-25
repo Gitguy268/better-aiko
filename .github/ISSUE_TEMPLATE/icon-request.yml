@@ -1,0 +1,23 @@
+name: Icon request
+description: Ask for a new icon
+labels: [icon request]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Icon name
+      placeholder: e.g. file-pdf
+    validations:
+      required: true
+  - type: textarea
+    id: use
+    attributes:
+      label: What is it for?
+      description: Where would you use it, and what should it show?
+    validations:
+      required: true
+  - type: input
+    id: reference
+    attributes:
+      label: Reference (optional)
+      description: A link to a similar icon elsewhere.
