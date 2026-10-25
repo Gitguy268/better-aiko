@@ -5,3 +5,6 @@ dist/
 simplify_icons.py
 named_icons.txt
 *.log
+.venv/
+__pycache__/
+node_modules/

@@ -1,0 +1,8 @@
+<svg data-id="bdd227" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.33" stroke-linecap="round" stroke-linejoin="round" data-category="Files" data-tags="file download save">
+  <use href="#a35fbc"/>
+  <rect class="cut" x="5" y="6.6" width="10" height="6.8"/>
+  <rect class="cut" x="9.41" y="9.41" width="11" height="11"/>
+  <circle class="fill" cx="9.41" cy="17.083" r=".665"/>
+  <circle class="fill" cx="16.25" cy="9.41" r=".665"/>
+  <path d="M15 11.667V17.5M12.5 15l2.5 2.5 2.5-2.5"/>
+</svg>

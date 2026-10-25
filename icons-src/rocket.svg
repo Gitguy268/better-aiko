@@ -1,0 +1,5 @@
+<svg data-id="06b180" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.33" stroke-linecap="round" stroke-linejoin="round" data-category="Developer" data-tags="rocket launch deploy ship">
+  <path d="M10 2.5c2.5 1.667 3.75 4.167 3.333 7.5l-1.666 3.333H8.333L6.667 10C6.25 6.667 7.5 4.167 10 2.5z"/>
+  <circle cx="10" cy="7.5" r="1.25"/>
+  <path d="M6.667 10 4.583 12.083v2.084l3.75-.834M13.333 10l2.084 2.083v2.084l-3.75-.834M10 15.833V17.5"/>
+</svg>

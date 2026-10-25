@@ -1,0 +1,9 @@
+<svg data-id="b76c10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.33" stroke-linecap="round" stroke-linejoin="round" data-category="Files" data-tags="file lock private secure">
+  <use href="#a35fbc"/>
+  <rect class="cut" x="5" y="6.6" width="10" height="6.8"/>
+  <rect class="cut" x="9.41" y="9.41" width="11" height="11"/>
+  <circle class="fill" cx="9.41" cy="17.083" r=".665"/>
+  <circle class="fill" cx="16.25" cy="9.41" r=".665"/>
+  <rect x="10.833" y="13.333" width="6.667" height="4.167" rx="1.25"/>
+  <path d="M12.5 13.333v-1.25a1.667 1.667 0 0 1 3.333 0v1.25"/>
+</svg>

@@ -1,0 +1,7 @@
+<svg data-id="d79837" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.33" stroke-linecap="round" stroke-linejoin="round" data-category="Developer" data-tags="server hosting backend rack">
+  <rect x="2.5" y="3.333" width="15" height="5.833" rx="1.667"/>
+  <rect x="2.5" y="10.833" width="15" height="5.833" rx="1.667"/>
+  <circle class="fill" cx="5.417" cy="6.25" r=".833"/>
+  <circle class="fill" cx="5.417" cy="13.75" r=".833"/>
+  <path d="M10 6.25h4.167M10 13.75h4.167"/>
+</svg>

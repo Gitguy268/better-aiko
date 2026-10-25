@@ -109,7 +109,7 @@ def stroked(path, width):
     s = pathops.Path()
     s.addPath(path)
     s.stroke(width, pathops.LineCap.ROUND_CAP, pathops.LineJoin.ROUND_JOIN, 4)
-    s.convertConicsToQuads()
+    s.convertConicsToQuads(0.001)
     return s
 
 
@@ -171,7 +171,7 @@ def svgo(paths):
     """Compact every path with svgo in one run; returns {id: d}."""
     body = "".join(f'<path id="p{i}" d="{d}"/>' for i, d in paths.items())
     config = ("export default { multipass: true, plugins: [{ name: 'convertPathData', params: "
-              "{ floatPrecision: 3, makeArcs: { threshold: 2.5, tolerance: 0.5 } } }] };")
+              "{ floatPrecision: 3, convertToQ: false, makeArcs: { threshold: 2.5, tolerance: 0.5 } } }] };")
     with tempfile.TemporaryDirectory() as tmp:
         (Path(tmp) / "in.svg").write_text(f'<svg xmlns="http://www.w3.org/2000/svg">{body}</svg>')
         (Path(tmp) / "svgo.config.mjs").write_text(config)

@@ -1,0 +1,6 @@
+<svg data-id="d07f9c" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.33" stroke-linecap="round" stroke-linejoin="round" data-category="AI" data-tags="neural network nodes layers deep learning">
+  <path d="M3.75 5.833 10 10 3.75 14.167M16.25 5.833 10 10l6.25 4.167"/>
+  <circle class="cut" cx="10" cy="10" r="2.5"/>
+  <circle cx="10" cy="10" r="2.5"/>
+  <circle class="fill" cx="3.75" cy="5.833" r="1.458"/><circle class="fill" cx="3.75" cy="14.167" r="1.458"/><circle class="fill" cx="16.25" cy="5.833" r="1.458"/><circle class="fill" cx="16.25" cy="14.167" r="1.458"/>
+</svg>
