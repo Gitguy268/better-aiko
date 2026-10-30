@@ -23,7 +23,7 @@ jobs:
           cp index.html llms.txt sitemap.xml _site/
           cp -R assets _site/
       - uses: actions/configure-pages@v5.0.0
-      - uses: actions/upload-pages-artifact@v3.0.1
+      - uses: actions/upload-pages-artifact@v5.0.0
   deploy:
     needs: build
     runs-on: ubuntu-24.04
