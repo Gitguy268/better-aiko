@@ -27,6 +27,25 @@
     <img src="assets/preview.png" width=800 />
 </p>
 
+<!-- run-steps:start -->
+## Run it locally, step by step
+
+1. **Get the code:**
+
+   ```sh
+   git clone https://github.com/Gitguy268/better-aiko.git
+   cd better-aiko
+   ```
+
+2. **Start a local web server** (Python 3 comes with macOS and most Linux systems):
+
+   ```sh
+   python3 -m http.server 8794
+   ```
+
+3. **Open <http://localhost:8794/>** in your browser. Press `Ctrl+C` in the terminal to stop.
+<!-- run-steps:end -->
+
 ## Features
 
 - **AI-Focused**: Meticulously designed for metaphors and actions prevalent in **AI agents and modern interfaces**
