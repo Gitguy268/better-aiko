@@ -27,6 +27,10 @@
     <img src="assets/preview.png" width=800 />
 </p>
 
+<!-- live-links -->
+**Live:** [gitguy268.github.io/better-aiko](https://gitguy268.github.io/better-aiko/) · [better-aiko.vercel.app](https://better-aiko.vercel.app)
+<!-- /live-links -->
+
 <!-- run-steps:start -->
 ## Run it locally, step by step
 
